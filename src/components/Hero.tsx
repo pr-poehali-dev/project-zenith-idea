@@ -25,13 +25,24 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+      <div className="absolute inset-0 bg-black/50 z-0" />
+      <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
+        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80">
+          Чистота и безопасность вашего дома — наша работа
         </p>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+          ДЕЗИНСЕКЦИЯ.<br />ДЕЗИНФЕКЦИЯ.<br />ДЕРАТИЗАЦИЯ.
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+          Устраняем насекомых, грызунов, неприятные запахи и ртутные загрязнения.<br />
+          Срочный выезд в день обращения.
+        </p>
+        <a
+          href="tel:89964123767"
+          className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Звоните: 8 996 412‑37‑67
+        </a>
       </div>
     </div>
   );
