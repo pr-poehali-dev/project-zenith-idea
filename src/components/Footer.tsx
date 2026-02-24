@@ -38,26 +38,24 @@ export default function Footer() {
 
             {/* Форма обратной связи */}
             <div className="bg-white/5 border border-white/10 p-6 max-w-lg">
-              <h4 className="text-white font-semibold mb-4 uppercase text-sm tracking-wide">Оставить заявку</h4>
+              <h4 className="text-white font-semibold mb-2 uppercase text-sm tracking-wide">Связаться с нами</h4>
+              <p className="text-neutral-400 text-xs mb-5">Нажмите кнопку — мы сразу перезвоним</p>
               <div className="flex flex-col gap-3">
-                <input
-                  type="text"
-                  placeholder="Ваше имя"
-                  className="bg-transparent border border-white/20 text-white placeholder-white/40 px-4 py-2 text-sm focus:outline-none focus:border-white/60"
-                />
-                <input
-                  type="tel"
-                  placeholder="Телефон"
-                  className="bg-transparent border border-white/20 text-white placeholder-white/40 px-4 py-2 text-sm focus:outline-none focus:border-white/60"
-                />
-                <input
-                  type="text"
-                  placeholder="Тип проблемы"
-                  className="bg-transparent border border-white/20 text-white placeholder-white/40 px-4 py-2 text-sm focus:outline-none focus:border-white/60"
-                />
-                <button className="bg-white text-black px-6 py-2 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300 w-fit">
-                  Отправить заявку
-                </button>
+                <a
+                  href="tel:89964123767"
+                  className="bg-white text-black px-6 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300 w-fit flex items-center gap-2"
+                >
+                  <span>📞</span>
+                  <span>Позвонить: 8 996 412‑37‑67</span>
+                </a>
+                <a
+                  href="https://wa.me/79964123767"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-white/30 text-white px-6 py-3 text-sm uppercase tracking-wide font-semibold hover:border-white transition-colors duration-300 w-fit"
+                >
+                  Написать в WhatsApp
+                </a>
               </div>
             </div>
 
